@@ -11,8 +11,6 @@
     # total de numeros.
     # Suma de ellos.
 
-
-
 suma_num = 0
 counter= 0
 num = 1
