@@ -6,3 +6,16 @@
 personName = "Juan Pepe"
 
 print('Bienvenido a Python:, Sr.', personName)
+
+
+#Crear un programa que permita cargar 5 numeros por teclado y los muestre.
+
+lista = []
+
+for i in range(5):
+    lista.append(int(input("Inserte un numero:")))
+
+i = 0
+
+for i in range(5):
+    print('Num => {}'.format(lista[i]))
